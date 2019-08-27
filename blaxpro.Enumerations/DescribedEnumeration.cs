@@ -1,4 +1,4 @@
-﻿namespace blaxpro.Enumerations
+﻿namespace Blaxpro.Enumerations
 {
     public abstract class DescribedEnumeration : Enumeration
     {
