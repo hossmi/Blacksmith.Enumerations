@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <SignAssembly>false</SignAssembly>
     <Description>Two abstract classes for building enumeration types without evil enums</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
-    <PackageProjectUrl>https://github.com/hossmi/Blaxpro.Enumerations</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/hossmi/Blaxpro.Enumerations</RepositoryUrl>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
+    <PackageProjectUrl>https://github.com/hossmi/Blacksmith.Enumerations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hossmi/Blacksmith.Enumerations</RepositoryUrl>
     <PackageTags>tools enumeration</PackageTags>
   </PropertyGroup>
 

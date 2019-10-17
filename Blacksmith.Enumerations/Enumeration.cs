@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Blaxpro.Enumerations
+namespace Blacksmith.Enumerations
 {
     public abstract class Enumeration : IComparable 
     {
