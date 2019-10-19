@@ -23,7 +23,7 @@ namespace Blacksmith.Enumerations
 
         public static IEnumerable<T> getAll<T>() where T : Enumeration
         {
-            var fields = typeof(T).GetFields(
+            var fields = typeof(T).GetProperties(
                 BindingFlags.Public 
                 | BindingFlags.Static 
                 | BindingFlags.DeclaredOnly);
