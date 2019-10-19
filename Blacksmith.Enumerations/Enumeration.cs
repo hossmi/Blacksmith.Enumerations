@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Blaxpro.Enumerations
+namespace Blacksmith.Enumerations
 {
     public abstract class Enumeration : IComparable 
     {
@@ -23,7 +23,7 @@ namespace Blaxpro.Enumerations
 
         public static IEnumerable<T> getAll<T>() where T : Enumeration
         {
-            var fields = typeof(T).GetFields(
+            var fields = typeof(T).GetProperties(
                 BindingFlags.Public 
                 | BindingFlags.Static 
                 | BindingFlags.DeclaredOnly);
