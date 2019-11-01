@@ -10,13 +10,13 @@ namespace Blacksmith.Enumerations.Tests
         [Fact]
         public void Test1()
         {
-            IEnumerable<TestEnumeration> enumValues;
-            TestEnumeration test;
+            IEnumerable<ServerStatus> enumValues;
+            ServerStatus test;
 
-            enumValues = Enumeration.getAll<TestEnumeration>();
-            test = TestEnumeration.Foo;
+            enumValues = Enumeration.getAll<ServerStatus>();
+            test = ServerStatus.Off;
 
-            Assert.Equal(2, enumValues.Count());
+            Assert.Equal(5, enumValues.Count());
             Assert.True(Enumeration.isDefined(test));
         }
     }
